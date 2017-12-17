@@ -37,6 +37,9 @@ def search_divisors(number):
     
 
 def d_function(number):
+    """
+    Returns the sum of the divisors of the given number.
+    """
     return sum(search_divisors(number))
 
 
@@ -45,48 +48,23 @@ def search_amicable_numbers(number):
     Returns a dict whose keys are the d(n) values for the numbers until a 
     given number and the values are lists with the numbers whose d(n)
     number is the key.
-    """
+    """ 
+    amicable_numbers = set()
     
-    amicable_numbers = {}
-    for i in range(2, number):
-        d = d_function(i)
-        if d in amicable_numbers:
-            amicable_numbers[d].append(i)
-        else:
-            amicable_numbers[d] = []
-            amicable_numbers[d].append(i)
+    for a in range(2, number):
+        d_a = d_function(a)
+        d_b = d_function(d_a)
+        if a == d_b and d_a > 1 and a != d_a:
+            amicable_numbers.add(a)
+            amicable_numbers.add(d_a)
+            #print(a, d_a, d_b)
     return amicable_numbers
-    
-
-def sum_amicable(my_dict):
-    return sum([sum(v) * binomial(len(v), 2) for k, v in my_dict.items() 
-            if len(v) > 1])
-        
-    
-def factorial(n):
-    """
-    Returns the factorial of the given number.
-    """
-    
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return n * factorial(n - 1)
-        
-def binomial(m, n):
-    """
-    Retuns the binomial of m over n.
-    """
-    
-    return int(factorial(n) / (factorial(m) * factorial(n - m)))
-        
+          
         
 #print(search_divisors(220))
 #print(d_function(220))
-limit = 1000
-#print(search_amicable_numbers(limit))
-print(sum_amicable(search_amicable_numbers(limit)))
+limit = 10000
+amicable_numbers = search_amicable_numbers(limit)
 
-"""
-TODO There is an error: find it.
-"""
+print(amicable_numbers)
+print(sum(list(amicable_numbers)))
