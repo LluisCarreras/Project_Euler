@@ -28,7 +28,25 @@ cycle in its decimal fraction part.
 """
 
 
-for i in range(2, 11):
-    dec_repr = str(1 / i)[2:]
-    print(i, "\t", dec_repr)
+from decimal import Decimal, getcontext
+
+# Set the precission to 10000
+getcontext().prec = 10000
+
+lng_max_rec_cycle = 1
+d = 2
+    
+for num in range(2, 1000):
+    fraction = str(Decimal(1) / Decimal(num))[2:]
+    
+    for lng in range(2, 4000):
+        if fraction[50:(50+lng)] == fraction[(50+lng):(50+2*lng)]:
+            if lng > lng_max_rec_cycle:
+                lng_max_rec_cycle = lng
+                d = num
+            break
+
+print(d, lng_max_rec_cycle)    
+   
+    
     
