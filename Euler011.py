@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan  8 09:17:57 2016
-
-@author: jlcarreras
+@author: Lluís Carreras
 
 Largest product in a grid
 Problem 11
