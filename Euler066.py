@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Feb  5 23:47:28 2016
-
 @author: Lluís Carreras González
 
 Diophantine equation
 Problem 66
+
 Consider quadratic Diophantine equations of the form:
 
 x2 – Dy2 = 1
