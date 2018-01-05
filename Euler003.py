@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 17:17:07 2016
-
-@author: Lluís
+@author: Lluís Carreras
 
 
 Largest prime factor
