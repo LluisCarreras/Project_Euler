@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan  8 21:43:03 2016
-
 @author: Lluís Carreras González
 
 Power digit sum
@@ -11,7 +10,6 @@ Problem 16
 
 What is the sum of the digits of the number 2**1000?
 """
-
 
 import math
 
