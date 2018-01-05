@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 21:36:19 2016
-
-@author: Lluís
-
+@author: Lluís Carreras
 
 Sum square difference
 Problem 6
