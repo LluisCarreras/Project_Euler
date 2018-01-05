@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 22:50:46 2016
-
-@author: Lluís
-
+@author: Lluís Carreras
 
 Special Pythagorean triplet
 Problem 9
