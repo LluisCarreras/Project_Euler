@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan 13 18:27:30 2016
-
 @author: Lluís Carreras González
 
 Reciprocal cycles
