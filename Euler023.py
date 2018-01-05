@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan 13 16:06:27 2016
-
 @author: Lluís Carreras González
 
 Non-abundant sums
