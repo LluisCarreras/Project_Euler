@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 8 07:24:37 2016
-
-@author: Lluís
+@author: Lluís Carreras
 
 Summation of primes
 Problem 10
