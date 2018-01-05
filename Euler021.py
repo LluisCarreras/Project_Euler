@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan 13 13:19:48 2016
-
 @author: Lluís Carreras González
 
 Amicable numbers
