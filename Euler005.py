@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 19:59:40 2016
-
-@author: Lluís
-
+@author: Lluís Carreras
 
 Smallest multiple
 Problem 5
