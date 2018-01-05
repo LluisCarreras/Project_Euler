@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 16:52:00 2016
-
-@author: Lluís
-
+@author: Lluís Carreras
 
 Multiples of 3 and 5
 Problem 1
