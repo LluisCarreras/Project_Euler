@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Dec 26 12:44:16 2017
-
-@author: jlcarreras
+@author: Lluís Carreras
 
 Counting Sundays
 Problem 19 
