@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan  8 22:13:14 2016
-
 @author: Lluís Carreras González
 
 Maximum path sum I
 Problem 18
+
 By starting at the top of the triangle below and moving to adjacent numbers 
 on the row below, the maximum total from top to bottom is 23.
 
