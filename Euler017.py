@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Dec  17 14:01:37 2017
-
 @author: Lluís Carreras González
 
 Number letter counts
