@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 17:34:34 2016
-
-@author: Lluís
-
+@author: Lluís Carreras
 
 Largest palindrome product
 Problem 4
