@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 17:01:46 2016
-
-@author: Lluís
+@author: Lluís Carreras
 
 Even Fibonacci numbers
 Problem 2
