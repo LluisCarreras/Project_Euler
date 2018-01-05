@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan  8 23:36:22 2016
-
 @author: Lluís Carreras González
-
 
 Factorial digit sum
 Problem 20
