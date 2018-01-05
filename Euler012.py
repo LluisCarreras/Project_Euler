@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan  8 14:32:20 2016
-
-@author: Lluís
+@author: Lluís Carreras
 
 Highly divisible triangular number
 Problem 12
@@ -55,20 +54,3 @@ def triangular_number(n):
 n = 500       
 first_triangle_with_over_n_divisors = triangular_number(n)
 print("\nOutcome: ", first_triangle_with_over_n_divisors)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
