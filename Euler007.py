@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 21:45:37 2016
-
 @author: Lluís Carreras González
 
 10001st prime
