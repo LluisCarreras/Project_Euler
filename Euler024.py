@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan 13 16:54:45 2016
-
 @author: Lluís Carreras González
 
 Lexicographic permutations
