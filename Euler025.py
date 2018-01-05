@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan 13 18:11:20 2016
-
 @author: Lluís Carreras González
 
 1000-digit Fibonacci number
