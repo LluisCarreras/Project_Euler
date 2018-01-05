@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan  7 21:59:33 2016
-
-@author: Lluís
-
+@author: Lluís Carreras
 
 Largest product in a series
 Problem 8
