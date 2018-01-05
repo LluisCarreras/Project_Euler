@@ -4,7 +4,6 @@ Created on Fri Jan  8 19:01:38 2016
 
 @author: Lluís Carreras González
 
-
 Longest Collatz sequence
 Problem 14
 
